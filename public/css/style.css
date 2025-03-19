@@ -1,0 +1,52 @@
+/* ページ全体のスタイル */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Google Mapエリアのスタイル */
+  #map {
+    width: 100%;
+    height: calc(100% - 120px); /* ヘッダーとフッター分を除く */
+    position: relative;
+  }
+  
+  /* カメラパネル（右下固定表示例） */
+  #camera-panel {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 320px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #camera-panel h2 {
+    margin-top: 0;
+  }
+  
+  /* 各カメラ項目 */
+  .camera-item {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .camera-item:last-child {
+    border-bottom: none;
+  }
+  

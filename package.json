@@ -1,0 +1,16 @@
+{
+    "name": "realtime-location-camera-app",
+    "version": "1.0.0",
+    "description": "OpenCellidとカメラAPIからデータを取得し、GoogleMap上にリアルタイム表示するWebサイト",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "dotenv": "^16.0.3"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  

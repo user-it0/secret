@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>M.T.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</head>
+<body>
+  <header>
+    <h1>リアルタイム位置情報＆カメラビュー</h1>
+  </header>
+  <main>
+    <!-- Google Map表示エリア -->
+    <div id="map"></div>
+    <!-- カメラ情報パネル -->
+    <div id="camera-panel">
+      <h2>カメラ一覧</h2>
+      <!-- カメラ項目はJSで動的に追加 -->
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Your Company Name</p>
+  </footer>
+  <!-- 独自JS -->
+  <script src="/js/map.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
